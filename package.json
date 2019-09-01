@@ -4,6 +4,7 @@
   "description": "Server to support shopping basket React challenge",
   "main": "server.js",
   "dependencies": {
+    "concurrently": "^4.1.2",
     "httpdispatcher": "^1.0.0"
   },
   "devDependencies": {
@@ -11,7 +12,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "frontend":"npm start --prefix frontend",
+    "start": "concurrently \"npm run frontend \" \"nodemon server.js\""
   },
   "author": "Geektastic",
   "license": "ISC"

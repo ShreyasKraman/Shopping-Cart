@@ -1,32 +1,37 @@
 [
   {
     "sku": 1,
-    "name": "Product One",
+    "name": "A Thousand Splendid Suns",
     "description": "Product One description",
-    "price": 1.11
+    "price": 10,
+    "image":"A Thousand Splendid Suns.jpg"
   },
   {
     "sku": 2,
-    "name": "Product Two",
+    "name": "Believe in Yourself",
     "description": "Product Two description",
-    "price": 2.22
+    "price": 12,
+    "image":"Believe in Yourself.jpg"
   },
   {
     "sku": 3,
-    "name": "Product Three",
+    "name": "Can Love Happen Twice",
     "description": "Product Three description",
-    "price": 3.33
+    "price": 20,
+    "image":"Can Love Happen Twice.jpg"
   },
   {
     "sku": 4,
-    "name": "Product Four",
+    "name": "Da Vinci Code",
     "description": "Product Four description",
-    "price": 4.44
+    "price": 9.99,
+    "image":"Da Vinci Code.jpg"
   },
   {
     "sku": 5,
-    "name": "Product Five",
+    "name": "Few Things Left Unsaid",
     "description": "Product Five description",
-    "price": 5.55
+    "price": 8,
+    "image":"Few Things Left Unsaid.jpg"
   }
 ]
